@@ -1,0 +1,21 @@
+environments:
+  default:
+    name: aks-poc-consumer-go-dev
+    resource_group: rg-poc-consumer-go-dev
+    service_principal_credential_id: aks-sp
+    subscription_id: #id
+  dev:
+    name: aks-poc-consumer-go-dev
+    resource_group: rg-poc-consumer-go-dev
+    service_principal_credential_id: aks-sp
+    subscription_id: #id
+  hlg:
+    name: aks-poc-consumer-go-hlg
+    resource_group: rg-poc-consumer-go-hlg
+    service_principal_credential_id: aks-sp
+    subscription_id: #id
+  prd:
+    name: aks-poc-consumer-go-prd
+    resource_group: rg-poc-consumer-go-prd
+    service_principal_credential_id: aks-sp
+    subscription_id: #id

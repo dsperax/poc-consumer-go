@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: poc-consumer-go
+data:
+  GIN_MODE: release
+  kafka_topic: topico-vendas
+  kafka_servers: localhost:9092
+  kafka_groupid: poc-consumer-go
+  app_port: "8080"
+  PG_POC_CONSUMER_GO: postgres://host=localhost user=postgres password=root dbname=postgres port=5432 sslmode=disable

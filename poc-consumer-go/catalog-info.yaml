@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Component
+metadata:
+  name: poc-consumer-go
+  description: poc-consumer-go
+  annotations:
+    github.com/project-slug: dsperax/poc-consumer-go
+spec:
+  type: library # or service, website, other
+  owner: valinor
+  lifecycle: production
